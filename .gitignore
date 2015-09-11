@@ -1,0 +1,3 @@
+*.[ao]
+*~
+Lo que hará el parámetro anterior, será que Git ignore a todos los archivos cuy aextensión sea .a u .o y el último parámetro hará que ignore de igual manera.
