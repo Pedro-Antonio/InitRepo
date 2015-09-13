@@ -2,18 +2,51 @@
 #### Gestor de Versiones: CVS (Concurrent Version System).
 
 
-###### *** - Introducción.***
+##### *** - Introducción.***
 
-
+***
 ```
 - En este marco teórico, se describe el concepto de Gestor de Versión CVS. Dado el problema entre los desarrolladores del intercambio de ficheros de código fuente, surge la necesidad de evitar este tipo de conflicto mediante la herramienta mencionada, esto, descrito en la investigación recabada en este documento. 
 
 Así mismo, se hace mención de su historia, principales características, uso y manejo del mismo con su respectiva descripción.
 
-Los gestores de versiones, también llamados Herramientas de Gestión de Configuraciones de Software ó Repositorios, son herramientas que permiten a desarrolladores de Proyectos centralizar y coordinar sus trabajos. Manteniendo los registros y cambios de distintos ficheros de un Proyecto; principalmente cógido fuente. Permitiendo la colaboración de distintos desarrolladores.
+Los gestores de versiones, también llamados Herramientas de Gestión de Configuraciones de Software ó Repositorios, son herramientas que permiten a desarrolladores de Proyectos centralizar y coordinar sus trabajos. Manteniendo los registros y cambios de distintos ficheros de un Proyecto; principalmente cógido fuente. Permitiendo la colaboración de distintos desarrolladores e incluyendo la evolución en líneas paralelas de un mismo Proyecto.
 
 Conociendo más características de la misma, hará de nuestro ejercicio y desarrollo una interacción concurrente e independiente.
 ```
+***
+##### - Ventajas.
+***
+```
+	- Aplicación Cliente-Servidor.
+	- Usado para archivos de código fuente y otros tipos de archivos.
+	- Empleado para administrar versiones y cambios sobre archivos.
+	- Difundido bajo licencia de GLP.
+	- Permite la concurrencia de trabajo.
+	- Integración de versiones.
+	- Manejo de múltiples versiones simultáneas.
+
+```
+***
+
+##### - Otros sistemas.
+***
+```
+	- Microsoft Source Safe.
+	- Clear Case.
+	- Visual Studio Team System Source Control.
+	- YACC.
+	- DARCS.
+	- Apache Subversion (SVN).
+	- Git.
+	- Mercurial.
+
+```
+***
+
+
+
+  
 
 `aoapedro@hotmail.com`
 
