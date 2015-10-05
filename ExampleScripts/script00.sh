@@ -1,0 +1,3 @@
+#!/bin/bash
+tr abcdefghijklmnopqrstuvwxyz thequickbrownfxjmpsvvalzydg
+tr abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ ubdasrasdaUBDASRASDA
