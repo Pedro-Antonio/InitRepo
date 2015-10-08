@@ -1,4 +1,3 @@
 ##### ***Repository.***
-
- #####==***By: Pedro Antonio (Peter).***==
+***By: Pedro Antonio (Peter).***
 
