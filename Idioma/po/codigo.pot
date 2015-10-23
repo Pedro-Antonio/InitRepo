@@ -1,0 +1,28 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Pedro-Antonio
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: codigo 0.1\n"
+"Report-Msgid-Bugs-To: aoapedro@hotmail.com\n"
+"POT-Creation-Date: 2015-10-23 17:47-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: codigo.c:16
+#, c-format
+msgid "Goodbye Intel-BUAP\n"
+msgstr ""
+
+#: codigo.c:15
+#, c-format
+msgid "Hello world Intel-BUAP\n"
+msgstr ""
