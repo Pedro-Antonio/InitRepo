@@ -1,0 +1,26 @@
+
+gcc -g -o3 -w -Wall codigo.c -o codigo
+
+xgettext --package-name codigo --package-version 0.1 --default-domain
+codigo --output po/codigo.pot --from-code=utf-8 --copyright-holder="Pedro-Antonio"
+--msgid-bugs-address="aoapedro@hotmail.com" -s -k_ -L C codigo.c
+
+Cambiar CHARSET en codigo.pot a utf-8.
+
+msginit -l es -o po/es.po -i po/codigo.pot
+msginit -l en -o po/en.po -i po/codigo.pot
+dnf install @development-tools
+dnf install gettext
+
+msgfmt -c -v -o idioma/es/LC_MESSAGES/Intel-BUAP.mo po/es.po
+msgfmt -c -v -o idioma/en/LC_MESSAGES/Intel-BUAP.mo po/en.po
+
+LANG=es_ES ./codigo
+
+1.- Actualización.
+    msgmerge -s -U es.po codigo.pot
+    msgmerge -s -U en.po codigo.pot
+
+Internacionalizacion.
+Make files.
+Funciones en ASCII.
