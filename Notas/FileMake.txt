@@ -1,0 +1,12 @@
+OBJETOS = HolaPiñata.o holafuncion.o
+FUENTES = HolaPiñata.c holafuncino.c
+CFLAGS = -g -Wall -03
+.PHONY: limpiar imprimir
+all: enlazar compilar
+enlazar:  ${FUENTES}
+          ${CC} -c ${FUENTES}
+compilar: ${OBJETOS}
+          ${CC} ${CFLAGS} -o hola ${OBJETOS}
+limpiar: rm -f hola ${OBJETOS}
+imprimir: HolaPiñata.c
+          cat $?
