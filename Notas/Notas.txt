@@ -27,3 +27,14 @@ dnf builddep typespeed
 dnf install ncurses-devel.x86-64
 
 
+Tue 03 Nov 2015 06:27:14 PM CST 
+
+dnf install autoconf
+dnf install automake
+dnf install libtool
+
+autoscan
+autoconf
+aclocal
+autoheader
+
