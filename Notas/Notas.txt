@@ -21,13 +21,13 @@ LANG=es_ES ./codigo
     msgmerge -s -U es.po codigo.pot
     msgmerge -s -U en.po codigo.pot
 
-//Other. Fri 30 Oct 2015 05:47:20 PM CST 
+//Other. Fri 30 Oct 2015 05:47:20 PM CST
 
 dnf builddep typespeed
 dnf install ncurses-devel.x86-64
 
 
-Tue 03 Nov 2015 06:27:14 PM CST 
+Tue 03 Nov 2015 06:27:14 PM CST
 
 dnf install autoconf
 dnf install automake
@@ -38,3 +38,7 @@ autoconf
 aclocal
 autoheader
 
+Fri 06 Nov 2015 18:53:14 PM CST
+
+gcc -o prog prog.s
+gcc -c -m32 prog.s
