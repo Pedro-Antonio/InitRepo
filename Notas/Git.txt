@@ -1,0 +1,11 @@
+- Configure initial Git.
+
+- Your Identity.
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+
+- Your Editor.
+$ git config --global core.editor emacs
+
+- Checking Your Settings.
+$ git config --list
